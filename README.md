@@ -11,10 +11,10 @@ First of all, you need to download [boot.bin]. Other steps depend on system you 
 ### Windows
 
 You will need BootIce (run and install it). Then do the following steps:
-* run it as an administrator
+* Run it as an administrator
 * "Process MBR"
 * "Restore MBR"
-* Choose downloaded boot.bit and click "Restore" (but select "Keep signature and partition table untouched")
+* Choose downloaded 'boot.bin' and click "Restore" (but select "Keep signature and partition table untouched")
 
 Ready!
 
