@@ -1,14 +1,14 @@
 # TinyBootloader
 
-##Description
+## Description
 
 This is tiny bootlader which allows you to boot from any active primary partition (extended partition is not supported). It copies VBR from begginnging of chosen partition and passes control to it.
 
-##How to install
+## How to install
 
 First of all, you need to download [boot.bin]. Other steps depend on system you are working with.
 
-###Windows
+### Windows
 
 You will need BootIce (run and install it). Then do the following steps:
 * run it as an administrator
@@ -17,6 +17,6 @@ You will need BootIce (run and install it). Then do the following steps:
 * Choose downloaded boot.bit and click "Restore" (but select "Keep signature and partition table untouched")
 Ready!
 
-###Linux
+### Linux
 
 Run `dd if=<working dir>/mbr.bin of=/dev/sdb bs=446 count=1` ('sdb' can be replaced by other device).
