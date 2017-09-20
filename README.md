@@ -20,4 +20,4 @@ Ready!
 
 ### Linux
 
-Run `dd if=<working dir>/boot.bin of=/dev/sdb bs=446 count=1` ('sdb' can be replaced by other device).
+Run `sudo dd if=<working dir>/boot.bin of=/dev/sdb bs=446 count=1` ('sdb' can be replaced by other device).
