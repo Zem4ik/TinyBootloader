@@ -15,6 +15,7 @@ You will need BootIce (run and install it). Then do the following steps:
 * "Process MBR"
 * "Restore MBR"
 * Choose downloaded boot.bit and click "Restore" (but select "Keep signature and partition table untouched")
+
 Ready!
 
 ### Linux
